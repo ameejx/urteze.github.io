@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ameen Home Page Mockup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        .header {
+            background-color: #fff;
+            border-bottom: 1px solid #dbdbdb;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header .search {
+            flex: 1;
+            margin: 0 20px;
+        }
+        .header .search input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #dbdbdb;
+            border-radius: 4px;
+        }
+        .header .icons {
+            display: flex;
+            gap: 20px;
+        }
+        .header .icons a {
+            text-decoration: none;
+            color: #262626;
+            font-size: 20px;
+        }
+        .main {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .posts {
+            max-width: 600px;
+            width: 100%;
+        }
+        .post {
+            background-color: #fff;
+            border: 1px solid #dbdbdb;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .post .image {
+            width: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .post .image img {
+            width: 100%;
+            height: auto;
+        }
+        .post .info {
+            margin-top: 10px;
+        }
+        .post .info .likes {
+            font-weight: bold;
+        }
+        .post .info .caption {
+            margin-top: 5px;
+        }
+        .post .info .comments {
+            margin-top: 10px;
+            color: #8e8e8e;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">kilogram</div>
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="icons">
+            <a href="#">🏠</a>
+            <a href="#">🔍</a>
+            <a href="#">❤️</a>
+            <a href="#">💬</a>
+            <a href="#">👤</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="posts">
+            <div class="post">
+                <div class="image">
+                    <img src="images/67650000.png" alt="Post Image">
+                </div>
+                <div class="info">
+                    <div class="likes">1,234 likes</div>
+                    <div class="caption">This is an example caption for the post.</div>
+                    <div class="comments">View all 56 comments</div>
+                </div>
+            </div>
+            <!-- Repeat .post for more posts -->
+        </div>
+    </div>
+</body>
+</html>
